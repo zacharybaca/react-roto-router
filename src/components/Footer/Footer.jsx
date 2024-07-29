@@ -2,8 +2,8 @@ import "./footer.css";
 
 export default function Footer() {
     return (
-        <div id="footer-container">
-            Footer
-        </div>
+        <footer id="footer-element">
+            <p>Mario Bros Plumbing Services LLC</p>
+        </footer>
     )
 }
