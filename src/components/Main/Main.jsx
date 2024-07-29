@@ -1,9 +1,10 @@
+/* eslint-disable react/prop-types */
 import "./main.css";
 
-export default function Main() {
+export default function Main(props) {
     return (
         <div id="main-container">
-            Main
+            {props.children}
         </div>
     )
 }
