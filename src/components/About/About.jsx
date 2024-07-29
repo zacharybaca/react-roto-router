@@ -2,7 +2,7 @@ import "./about.css";
 
 export default function About() {
     return (
-        <div>
+        <div id="about-container">
             About
         </div>
     )
